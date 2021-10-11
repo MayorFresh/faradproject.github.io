@@ -749,12 +749,14 @@ nav ul li a.active::after{
         width: 95% !important;
     }
     .other-links li a{
-        font-size: x-small;
+        font-size: 5px;
     }
     .media-tags img{
         width: 10%;
     }
-
+    .copywrite{
+        width: 98% !important;
+    }
 }
 
 /* for tablet devices */
