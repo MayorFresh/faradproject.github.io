@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/about.css">
+
+</head>
+<body>
+    <div class="container">
+        <div id="myHeader" class="header ">
+            <nav id="navbar">
+                <div class="logo-part">
+                    <a href="../index.html" ><img src="../images/logo.png" alt="logo" id="logo"></a>
+                    <div class="name">
+                        <h1>BRICK TILES AND STONES</h1>
+                        <P>For Wall Decorations</P>
+                    </div>
+                </div>
+                <ul id="menu-list">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <!-- <li><a href="gallery.html">Gallery</a></li> -->
+                    <li><a href="about-us.html" class="active">About Us</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                </ul>
+                <img src="../images/menu.png" alt="ham-btn" onclick="toggleMenu()" id="menu" width="50px">
+            </nav>
+           
+        </div>
+
+        <div class="title-wrapper">
+            <img src="../images/top-banner.png" alt="" width="100%" height="50%">
+            <div class="tobi"><h1 >About Us</h1></div>
+        </div>
+
+        <div class="content">
+            <div class="row-1">
+                <div class="ceo">
+                    <h1>How we started</h1>
+                    <p>What initially started like a menial individual effort has   today transformed to an established enterprise.
+                        My name is Francis Umenwanne,I am the Founder of FARAD CONTRACTORS NIGERIA, it is my pleasure to share with you how the tender steps we took yesterday eventually became today's giant strides. 
+                    </p>
+                    <p>It has not always been this fantastic ,in the begining we moved from one building construction site to the other in the streets of Portharcourt Nigeria soliciting jobs from home builders, explaining to them what we do, how we do it and the benefits of decorating their buildings with STONES AND BRICKS.</p>
+                    <p>Those we were able to convince to engage our service ,we made sure to impress beyond their immediate expectations, and this was the little secret that worked wonders in our business <i>"impressing the client beyond his immediate expectations"</i>. Like a chain reaction, those we worked for referred us to their friends, relations and colleagues hence the sales,resales and referrals kept pouring in till date.</p>
+                    <p>Today We get calls from virtually every corner of Nigeria and we move around every Nigerian city decorating Nigerian buildings with STONES AND BRICKS. We have not really accessed the greater part of the VISION we have for this venture, but believe me we are in firm control of all our variables and the future is a promising one as we strive diligently to <b>"IMPRESS THE CLIENT BEYOND HIS IMMEDIATE EXPECTATIONS"</b></p>
+                </div>
+                <div class="ceo-img">
+                    <img src="../images/profile.jpg" alt="">
+                    <h3>Founder</h3>
+                    <h3>UMENWANNE FRANCIS ONYEKA</h3>
+                    <p><img src="../images/email-3-16.png" alt=""><a href="">francisumenka@gmail.com</a></p>
+                    <p><img src="../images/phone-16.png" alt=""> 0806 287 3386</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="row-2">
+            <div class="values">
+                <h1>Our Values</h2>
+                <p>From the very inception of our business, we have always regarded providing a personalised service above everything else. We take pride in our established reputation as the brand of choice for brick tiles. We also value:</p>
+                <h1>Investing in the local community</h2>
+                <p>All the materials we use are locally sourced ensuring that we contribute to the local economy. We also work closely with local transport companies and can arrange and manage supply for your convenience.</p>
+                <h1>Our commitment to quality</h2>
+                <p>This is what sets us apart from the rest. We are set and focused on providing quality Brick Tile products and quality service to give our clients the best value for their money.</p>
+                <p>Contact us today to experience the Farad Contractors difference.</p>
+            </div>
+        </div>
+
+        <button class="top-btn"><a href="#top">Top</a></button>
+
+
+        <!-- Footer  -->
+        <div class="footer">
+            <div class="partner">
+                <p>In partner with</p>
+                <div class="partners">
+                    <img src="../images/partners/top block.jpg" alt="" >
+                    <img src="../images/partners/indiamart.png" alt="" >
+                    <img src="../images/partners/HiiT-Logo-1.png" alt="" >
+                </div>
+            </div>
+            <div class="bottom">
+                <h3>Farad Constractors Company</h3>
+                <p>Brick Tiles and Stones</p>
+                <div class="other-links">
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Become an installer</a></li>
+                    <li><a href="">terms &amp; Conditions</a></li>
+                    <li><a href="contact-us.html">contact</a></li>
+                    <li><a href="">delivery</a></li>
+                    <li><a href="">privacy</a></li>
+                    <li><a href="">faq</a></li>
+                </div>
+                <div class="media-tags">
+                    <img src="../images/instagram.png" alt="">
+                    <img src="../images/twitter.png" alt="">
+                    <img src="../images/facebook.png" alt="">
+                    <img src="../images/pinterest.png" alt="">
+                </div>
+                <div class="copywrite">
+                    <p>Farad Constractor 2021 &copy; All right Reserved. Designed by <b>MayorFresh</b></p>
+                    <p>Sponsored by HiiT Plc</i></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="../js/main.js"></script>
+    <script>
+        //menu button
+        //menu button
+var menuList = document.getElementById('menu-list');
+function testFunction (x) {
+  if (x.matches) 
+  {
+    menuList.style.width ='0px'
+  }
+}
+// menuList.style.width ='0px';
+function toggleMenu(){
+  if(menuList.style.width == '0px'){
+      menuList.style.width = '240px';
+
+  } else {
+      menuList.style.width = '0px';
+  }
+}
+var x = window.matchMedia("(max-width: 1080px")
+testFunction(x)
+// x.addListener(testFunction)
+    </script>
+</body>
+</html>

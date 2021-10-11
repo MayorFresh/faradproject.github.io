@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faradng</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <div class="container" id="top">
+        <div id="myHeader" class="header ">
+            <nav id="navbar">
+                <div class="logo-part">
+                    <a href="index.html" ><img src="images/logo.png" alt="logo" id="logo"></a>
+                    <div class="name">
+                        <h1>BRICK TILES AND STONES</h1>
+                        <P>For Wall Decorations</P>
+                    </div>
+                </div>
+                <ul id="menu-list">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="pages/products.html">Products</a></li>
+                    <!-- <li><a href="gallery.html">Gallery</a></li> -->
+                    <li><a href="pages/about-us.html">About Us</a></li>
+                    <li><a href="pages/contact-us.html">Contact Us</a></li>
+                </ul>
+                <img src="images/menu.png" alt="ham-btn" onclick="toggleMenu()" id="menu" width="50px">
+            </nav>
+           
+        </div>
+        <!--end of Header-->
+        <div class="search-container">
+            <form action="">
+              <input type="text" placeholder="Search.." name="search">
+              <button type="submit"><img src="images/search.png" alt="" style="width: 100%; max-width: 15px;"></button>
+            </form>
+            <div class="cart">
+                <img src="images/cart.png" alt="" style="width: 100%;">
+            </div>
+        </div>
+        <div class="main">
+            <div class="slider">
+                <div class="slides">
+                    <img  src="images/slide images/Blend-1_079.jpg" alt="">
+                    <h1 class="text">Think Differently About your walls</h1>
+                </div>
+                <div class="daniel">
+                    <button class="product-btn"><a href="pages/products.html">View More</a></button>
+                </div>
+                <div class="slides">
+                    <img  src="images/slide images/blend-2_023.jpg" alt="">
+                    <h1 class="text">Unique character</h1>
+                </div>
+                <div class="slides">
+                    <img  src="images/slide images/Blend-3_075.jpg" alt="">
+                    <h1 class="text">Genuine Clay Brick</h1>
+                </div>
+                <div class="slides">
+                    <img  src="images/slide images/Blend-4_042.jpg" alt="">
+                    <h1 class="text">Transform your Home</h1>
+                </div>
+                <div class="slides">
+                    <img  src="images/slide images/blend-16_007.jpg" alt="">
+                    <h1 class="text">Effortless Charm</h1>
+                </div>
+                <div class="slides">
+                    <img  src="images/slide images/Blend-89_015.jpg" alt="">
+                    <h1 class="text">warmth and Authenticity</h1>
+                </div>
+            </div>
+            
+        </div>
+        <div class="context">
+           <div class="express">
+               <img src="images/png/express.png" alt="">
+               <div>
+                    <h4>EXPRESS DELIVERY</h4>
+                    <p>Quick Delivery for all Brick Tiles in Stock</p>
+               </div>
+           </div>
+           <div class="click">
+               <img src="images/png/click_correct.png" alt="">
+               <div>
+                    <h4>CLICK AND COLLECT</h4>
+                    <p>Click & Collect for all Brick Tiles in Stock</p>
+               </div>
+           </div>
+           <div class="sample">
+               <img src="images/png/smaple.png" alt="">
+               <div>
+                    <h4>SAMPLES</h4>
+                    <p>Samples delivered straight to your door within 48 hours</p>
+               </div>
+           </div>
+           <div class="support">
+               <img src="images/png/icon-Support.png" alt="">
+               <div>
+                    <h4>SUPPORT</h4>
+                    <p>Our brick tile experts are on hand to discuss your project</p>
+               </div>
+           </div>
+        </div>
+
+        <!-- text-area  -->
+        <div class="short-note">
+            <div class="col-1">
+                <h1>Farad Contractors Leading Tiles Provider</h1>
+                <p>Finding quality Clay Brick Tiles, a Cladding that looks like brick for renovating your property can easily become a time consuming job, but when you partner with a supplier like Farad Contractors, you are guaranteed great results every time.</p>
+                <!-- <p>We are a manufacturer and supplier of Clay Brick Tiles, and we also offer an accredited independent installation service. For installations on our Clay Brick Tiles please go to our contact us page so that you can specify the installation service you need so that we can offer accurate and relevant assistance.</p> -->
+                <p>Whether you are building a new house or renovating your current home, we have just what you need.</p>
+            </div>
+            <div class="col-2">
+                <h1>Benefits of Brick Tiles</h1>
+                <li>Never Paint again</li>
+                <li>Maintenance is free</li>
+                <li>Quick &amp; Easy to apply</li>
+                <li>Durable</li>
+                <li>An answer to damp problems</li>
+                <li>Increases property value</li>
+                <li>Various Colors and Design available</li>
+                <li>Enviroment friendly</li>
+
+                <p>Why choose any other finish?</p>
+                <p>Choose Farad and be happy</p>
+        
+                
+            </div>
+        </div>
+
+
+
+        <div class="portfolio">
+            <h1>INSPIRATION</h1>
+            <p>See how previous customers incorporated brick tiles into their projects.</p>
+        </div>
+        <div class="pport">
+            <div class="port">
+                <div class="card1">
+                    <img id="myImg" src="images/blend 1/b1.6.jpg" alt="Dining Design">
+
+                    <!-- The Modal -->
+                    <div class="modal" id="myModal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img01">
+                        <div id="caption"></div>
+                    </div>
+                    <h3>Dining Room Project, PH</h3>
+                </div>
+                <div class="card1">
+                    <img id="myImg1" src="images/blend 1/blend1lounge.jpg" alt="Living Room Design" >
+
+                    <!-- The Modal -->
+                    <div class="modal " id="myModal1">
+                        <span class="close1">&times;</span>
+                        <img class="modal-content" id ="img011">
+                        <div id="caption1"></div>
+                    </div>
+                    <h3>Living Room Project, Abuja</h3>
+                </div>
+                <div class="card1">
+                    <img id="myImg2" src="images/blend 1/b1.7.jpg" alt="Kitchen Design" >
+
+                    <!-- The Modal -->
+                    <div id="myModal2" class="modal">
+                        <span class="close2">&times;</span>
+                        <img class="modal-content" id="img012">
+                        <div id="caption2"></div>
+                    </div>
+                    <h3>Kitchen Project, Lekki</h3>
+                </div>   
+            </div>
+            <div class="port-bttn">
+                <button class="port-btn"><a href="pages/gallery.html">View More</a></button>
+            </div>
+        </div>
+        
+        <button class="top-btn"><a href="#top">Top</a></button>
+
+        <!-- Footer  -->
+        <div class="footer">
+            <div class="partner">
+                <p>In partner with</p>
+                <div class="partners">
+                    <img src="images/partners/top block.jpg" alt="" >
+                    <img src="images/partners/indiamart.png" alt="" >
+                    <img src="images/partners/HiiT-Logo-1.png" alt="" >
+                    
+                </div>
+            </div>
+            <div class="bottom">
+                <h3>Farad Constractors Company</h3>
+                <p>Brick Tiles and Stones</p>
+                <div class="other-links">
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Become an installer</a></li>
+                    <li><a href="">terms &amp; Conditions</a></li>
+                    <li><a href="pages/contact-us.html">contact</a></li>
+                    <li><a href="">delivery</a></li>
+                    <li><a href="">privacy</a></li>
+                    <li><a href="">faq</a></li>
+                </div>
+                <div class="media-tags">
+                    <img src="images/instagram.png" alt="">
+                    <img src="images/twitter.png" alt="">
+                    <img src="images/facebook.png" alt="">
+                    <img src="images/pinterest.png" alt="">
+                </div>
+                <div class="copywrite">
+                    <p>Farad Constractor 2021 &copy; All right Reserved. Designed by <b>MayorFresh</b></p>
+                    <p>Sponsored by HiiT Plc</i></p>
+                </div>
+            </div>
+        </div>
+
+
+
+        
+    </div>
+    <!--JavaScript-->
+    <script src="https://kit.fontawesome.com/384b117aea.js" crossorigin="anonymous"></script>
+
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        
+    </script>
+  
+</body>
+</html>

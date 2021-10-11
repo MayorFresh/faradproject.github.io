@@ -1,0 +1,129 @@
+
+.title-wrapper img{
+    position: relative;
+    
+}
+.tobi{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.title-wrapper h1{
+    position: absolute;
+    bottom: 55%;
+    color: #fff;
+    font-size: 60px;
+    margin: 0;
+}
+
+.content{
+    /* border: 1px solid; */
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.row-1{
+    /* border: 1px solid; */
+    border-bottom: none;
+    /* background-color: #fff; */
+    /* width: 90%; */
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.ceo{
+    border: 2px solid #074272;
+    width: 60%;
+    padding: 20px;
+}
+.ceo h1{
+    text-align: center;
+    color: #0c4472;
+}
+.ceo-img{
+    border: 2px solid #074272;
+    padding: 20px;
+    /* width: 30%; */
+}
+.ceo-img p img{
+    margin-right: 5px;
+}
+.ceo-img a{
+    text-decoration: none;
+    color: black;
+}
+
+.row-2{
+    /* border: 1px solid; */
+    border-top: none;
+    background-color: #fff;
+    padding: 20px;
+   
+
+}
+
+.values{
+    border: 2px solid #074272;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+}
+.values h1{
+    text-align: center;
+    color: #0c4472;
+}
+
+@media screen and (min-width: 320px) and (max-width: 485px){
+    .title-wrapper h1{
+        position: absolute;
+        top: 13% !important;
+        color: #fff;
+        margin: 0;
+        font-size: revert;
+    }
+    .content{
+        width: 100%;
+    }
+    .row-1{
+        flex-direction: column;
+    }
+    .ceo{
+        width: 100%;
+        border-bottom: none;
+    }
+    .ceo-img{
+        border-top: none;
+        width: 100%;
+    }
+    .ceo-img img{
+        width: 100%;
+    }
+    .ceo-img p img{
+        width: 4%;
+    }
+    .values{
+        width: 100%;
+    }
+
+}
+
+/* Tablets  */
+@media screen and (max-width: 1080px){
+    .title-wrapper h1{
+        top: 20% ;
+    }
+    .row-1{
+        flex-direction: column;
+    }
+    .ceo{
+        width: 100%;
+        border-bottom: none;
+    }
+    .ceo-img{
+        border-top: none;
+    }
+}

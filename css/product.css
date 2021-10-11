@@ -1,0 +1,159 @@
+.title-wrapper img{
+    position: relative;
+    
+}
+.tobi{
+    display: flex;
+    justify-content: center;
+}
+.title-wrapper h1{
+    position: absolute;
+    bottom: 45%;
+    color: #fff;
+    font-size: 60px;
+    margin: 0;
+}
+.pro-img h3{
+    margin: 0;
+    margin-bottom: 10px;
+    color: #01203A;
+}
+.pro-img h4{
+    margin: 0;
+    color: #01203A;
+}
+.pro-img p a{
+    color: #0C4492;
+}
+
+
+#myImg:hover {opacity: 1;}
+.product-main{
+    margin-top: 20px;
+    width: 80%;
+    margin: 20px auto;
+}
+.product-row-1{
+    display: flex;
+    justify-content: space-between;
+}
+/* .product-col-1{
+    display: flex;
+    justify-content: space-between;
+} */
+.product-col-1 img{
+    max-width: 300px;
+}
+
+
+/* for product items  */
+.item-1{
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.item-img{
+    width: 45%;
+}
+.item-details{
+    width: 45%;
+}
+.item-details button{
+    background-color: #fff;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid #01203A;
+    cursor: pointer;
+    transition: all .5s;
+}
+.item-details button a{
+    padding: 10px;
+    text-decoration: none;
+    color: #01203A;
+    font-size: medium;
+    font-weight: bold;
+}
+.item-details button:hover{
+    background-color: #01203A;
+}
+.item-details button a:hover{
+    color: #fff;
+}
+
+.accessories{
+    width: 90%;
+    margin: 20px auto;
+}
+.accessories h1{
+    text-align: center;
+    color: #01203A;
+}
+.accessories h3{
+    text-align: center;
+    color: #01203A;
+}
+.tools{
+    display: flex;
+    justify-content: space-between;
+}
+.tool-img{
+    width: 100%;
+}
+.gen{
+    width: 20%;
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 485px){
+    .title-wrapper h1 {
+        position: absolute;
+        top: 21% !important;
+        color: #fff;
+        font-size: revert;
+        margin: 0;
+    }
+    .product-row-1{
+        flex-direction: column;
+    }
+    .product-col-1 img{
+        max-width: 100%;
+    }
+
+    /* for items  */
+    .item-1{
+        flex-direction: column;
+    }
+    .item-img{
+        width: 100%;
+    }
+    .item-details{
+        width: 100%;
+    }
+}
+
+
+/* Tablets  */
+@media screen and (max-width: 1080px){
+    .title-wrapper h1{
+        top: 28%;
+    }
+    .product-row-1{
+        flex-direction: column;
+    }
+    #myImg{
+        max-width: 100%;
+    }
+
+    /* for items  */
+    .item-1{
+        flex-direction: column;
+    }
+    .item-img{
+        width: 100%;
+    }
+    .item-details{
+        width: 100%;
+    }
+}

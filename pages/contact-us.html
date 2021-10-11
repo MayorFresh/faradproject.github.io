@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contact.css">
+</head>
+<body>
+    <div class="container">
+        <div id="myHeader" class="header ">
+            <nav id="navbar">
+                <div class="logo-part">
+                    <a href="../index.html" ><img src="../images/logo.png" alt="logo" id="logo"></a>
+                    <div class="name">
+                        <h1>BRICK TILES AND STONES</h1>
+                        <P>For Wall Decorations</P>
+                    </div>
+                </div>
+                <ul id="menu-list">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <!-- <li><a href="gallery.html">Gallery</a></li> -->
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="contact-us.html" class="active">Contact Us</a></li>
+                </ul>
+                <img src="../images/menu.png" alt="ham-btn" onclick="toggleMenu()" id="menu" width="50px">
+            </nav>
+        </div>
+
+        <div class="contact-main">
+            <div class="title-wrapper">
+                <img src="../images/top-banner.png" alt="" width="100%" height="50%">
+                <div class="tobi"><h1 >Contact Us</h1></div>
+            </div>
+
+            <div class="middle">
+                <div class="contact">
+                    <div class="contact-header">
+                        <!-- <h1>Contact Us</h1> -->
+                        <p><b>Contact us for quote, help or to join the team.</b> </p>
+                             
+                    </div>       
+                    <div class="position location">
+                        <div class="loco">
+                            <img class="cont-img" src="../images/loc.png" alt="">
+                            <h2>ADDRESS</h2>
+                            <P>Adewuyi St, Surulere 101241, Lagos, Nigeria</P>
+                        </div>
+                    </div>
+                    <div class="position email">
+                        <div class="emi">
+                            <img class="cont-img" src="../images/email.png" alt="">
+                            <h2>EMAIL</h2>
+                            <p><a href="mailto:info@faradng.com">info@faradng.com</a></p>
+                            <p><a href="mailto:danielmayotar@gmail.com">danielmayotar@gmail.com</a></p>
+                        </div>    
+                    </div>
+                    <div class="position call">
+                        <div class="caall">
+                            <img class="cont-img" src="../images/phone.png" alt="">
+                            <h2>CALL US</h2>
+                            <p>0806 287 3386, +1 214 462 2028</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.1899958825006!2d3.3252411141499074!3d6.49761422526789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8ebb68e1064b%3A0xa3b700daa224eff5!2sAdewuyi%20St%2C%20Lawanson%20101241%2C%20Lagos%2C%20Nigeria!5e0!3m2!1sen!2sch!4v1631981453317!5m2!1sen!2sch" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <button class="top-btn"><a href="#top">Top</a></button>
+
+
+        <!-- Footer  -->
+        <div class="footer">
+            <div class="partner">
+                <p>In partner with</p>
+                <div class="partners">
+                    <img src="../images/partners/top block.jpg" alt="" >
+                    <img src="../images/partners/indiamart.png" alt="" >
+                    <img src="../images/partners/HiiT-Logo-1.png" alt="" >
+                </div>
+            </div>
+            <div class="bottom">
+                <h3>Farad Constractors Company</h3>
+                <p>Brick Tiles and Stones</p>
+                <div class="other-links">
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Become an installer</a></li>
+                    <li><a href="">terms &amp; Conditions</a></li>
+                    <li><a href="contact-us.html">contact</a></li>
+                    <li><a href="">delivery</a></li>
+                    <li><a href="">privacy</a></li>
+                    <li><a href="">faq</a></li>
+                </div>
+                <div class="media-tags">
+                    <img src="../images/instagram.png" alt="">
+                    <img src="../images/twitter.png" alt="">
+                    <img src="../images/facebook.png" alt="">
+                    <img src="../images/pinterest.png" alt="">
+                </div>
+                <div class="copywrite">
+                    <p>Farad Constractor 2021 &copy; All right Reserved. Designed by <b>MayorFresh</b></p>
+                    <p>Sponsored by HiiT Plc</i></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="../js/main.js"></script>
+    <script>
+        //menu button
+        //menu button
+var menuList = document.getElementById('menu-list');
+function testFunction (x) {
+  if (x.matches) 
+  {
+    menuList.style.width ='0px'
+  }
+}
+// menuList.style.width ='0px';
+function toggleMenu(){
+  if(menuList.style.width == '0px'){
+      menuList.style.width = '240px';
+
+  } else {
+      menuList.style.width = '0px';
+  }
+}
+var x = window.matchMedia("(max-width: 1080px")
+testFunction(x)
+// x.addListener(testFunction)
+    </script>
+</body>
+</html>
