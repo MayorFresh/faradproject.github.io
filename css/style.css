@@ -677,7 +677,7 @@ nav ul li a.active::after{
     }
     #menu-list{
         overflow: hidden;
-        transition: 0.1s; 
+        transition: 1s; 
     }
 
     /* For the slider  */
